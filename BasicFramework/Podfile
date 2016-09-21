@@ -12,6 +12,7 @@ target ‘BasicFramework’ do
   pod 'JSONModel', '~> 1.2.0'
   pod 'Masonry', '~> 1.0.1'
   pod 'MyUUID'
+  pod 'MYBlurIntroductionView'
 
 ##wsl--add
 #<<start>>

@@ -17,6 +17,7 @@ PODS:
   - JSONModel (1.2.0)
   - Masonry (1.0.1)
   - MBProgressHUD (0.9.2)
+  - MYBlurIntroductionView (1.0.3)
   - MyUUID (1.0.1)
   - Reachability (3.2)
   - SBJson (4.0.2)
@@ -29,6 +30,7 @@ DEPENDENCIES:
   - JSONModel (~> 1.2.0)
   - Masonry (~> 1.0.1)
   - MBProgressHUD (~> 0.9.2)
+  - MYBlurIntroductionView
   - MyUUID
   - Reachability (~> 3.2)
   - SBJson (~> 4.0.2)
@@ -39,11 +41,12 @@ SPEC CHECKSUMS:
   JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MYBlurIntroductionView: b12651c25574580472ff34989a4c5b81c157009f
   MyUUID: 640928dcab11d78044d210834071eef71aaa6db7
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 
-PODFILE CHECKSUM: 92df8a19044ed1f9ff54dc97fc339364607ba6c5
+PODFILE CHECKSUM: 642386d10d4d3641565b68cbb067a8ec44fee2b4
 
-COCOAPODS: 1.1.0.beta.1
+COCOAPODS: 1.0.1

@@ -1,32 +1,32 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
   - JSONModel (1.2.0)
-  - Masonry (1.0.1)
+  - Masonry (1.0.2)
   - MBProgressHUD (0.9.2)
   - MYBlurIntroductionView (1.0.3)
   - MyUUID (1.0.1)
   - Reachability (3.2)
-  - SBJson (4.0.2)
-  - SDWebImage (3.8.1):
-    - SDWebImage/Core (= 3.8.1)
-  - SDWebImage/Core (3.8.1)
+  - SBJson (4.0.5)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.1.0)
+  - AFNetworking
   - JSONModel (~> 1.2.0)
   - Masonry (~> 1.0.1)
   - MBProgressHUD (~> 0.9.2)
@@ -37,16 +37,16 @@ DEPENDENCIES:
   - SDWebImage (~> 3.7)
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
-  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MYBlurIntroductionView: b12651c25574580472ff34989a4c5b81c157009f
   MyUUID: 640928dcab11d78044d210834071eef71aaa6db7
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
-  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SBJson: af3137ccda22be3004487524da0a071c75d4251b
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 642386d10d4d3641565b68cbb067a8ec44fee2b4
+PODFILE CHECKSUM: 963ae3bc9aefaaa69ca6f490dd956df081b8fe33
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.4.0

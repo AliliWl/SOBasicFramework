@@ -1,7 +1,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (LBKJExtenison)
+@interface NSString (SOExtenison)
 
 - (CGSize)sizeWithFont:(UIFont *)font;
 - (CGSize)sizeWithFont:(UIFont *)font andMaxW:(CGFloat)maxW;

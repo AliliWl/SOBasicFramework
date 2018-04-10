@@ -16,7 +16,7 @@
  *  @param 开发环境
  *
  */
-#define YGBaseURL @"http://"
+#define SOBaseURL @"http://"
 
 #elif ENVIRONMENT ==1
 
@@ -26,7 +26,7 @@
  *  @param 测试环境
  *
  */
-#define YGBaseURL @"http://"
+#define SOBaseURL @"http://"
 
 #elif ENVIRONMENT ==2
 
@@ -36,7 +36,7 @@
  *  @param 正式环境
  *
  */
-#define YGBaseURL @"http://"
+#define SOBaseURL @"http://"
 
 
 #endif /* HTTPURLDefine_h */

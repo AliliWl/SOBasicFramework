@@ -1,7 +1,7 @@
 
-#import "NSObject+YGTool.h"
+#import "NSObject+SOTool.h"
 
-@implementation NSObject (YGTool)
+@implementation NSObject (SOTool)
 + (UIViewController*)viewControllerWithviewObj:(UIView *)viewObj {
     
     for (UIView* next = [viewObj superview]; next; next =

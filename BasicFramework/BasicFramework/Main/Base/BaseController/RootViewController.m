@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 #import "RAYNewFunctionGuideVC.h"
 #import "MYBlurIntroductionView.h"
+#import "SONetWorkClient.h"
 @interface RootViewController ()<MYIntroductionDelegate>
 
 @end
@@ -18,7 +19,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [SONetWorkClient getRequest:@"http://ipad-bjwb.bjd.com.cn/DigitalPublication/publish/Handler/APINewsList.ashx?date=20151031&startRecord=1&len=5&udid=1234567890&terminalType=Iphone&cid=213" parameters:nil needPrompt:YES success:^(id dataObject) {
+        
+    } failure:^(id resultDict) {
+        
+    }];
     
+    
+    
+    
+    
+    
+
     
 }
 - (void)viewDidAppear:(BOOL)animated{

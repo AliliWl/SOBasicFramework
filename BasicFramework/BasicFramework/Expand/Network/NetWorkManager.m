@@ -51,7 +51,7 @@ static NetWorkManager *network = nil;
 - (void)SynchronizationForRequestType:(NSString *)RequestType WithURL:(NSString *)URL parameters:(NSString *)parametersStr Controller:(UIViewController *)Controller success:(void(^)(id response,id data))success
 {
     
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@",YGBaseURL,URL]];
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@",SOBaseURL,URL]];
     
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     
@@ -98,7 +98,7 @@ static NetWorkManager *network = nil;
 
 -(void)UploadPicturesToServerPic:(UIImage *)image url:(NSString *)url uiserid:(NSString *)userid success:(void (^)(id responseObject))success failure:(void (^)(NSError *  error))failure
 {
-    NSString *str = [NSString stringWithFormat:@"%@%@?version=%@&userId=%@",YGBaseURL,url,kVersion,userid];
+    NSString *str = [NSString stringWithFormat:@"%@%@?version=%@&userId=%@",SOBaseURL,url,kVersion,userid];
     
     AFHTTPSessionManager *manager = [self HTTPSessionManager];
     
@@ -136,7 +136,7 @@ static NetWorkManager *network = nil;
 {
     AFHTTPSessionManager *manager = [self HTTPSessionManager];
     
-    URL = [NSString stringWithFormat:@"%@%@",YGBaseURL,URL];
+    URL = [NSString stringWithFormat:@"%@%@",SOBaseURL,URL];
     
     [manager POST:URL parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
@@ -187,7 +187,7 @@ static NetWorkManager *network = nil;
     
     AFHTTPSessionManager *manager = [self HTTPSessionManager];
     
-    URL = [NSString stringWithFormat:@"%@%@",YGBaseURL,URL];
+    URL = [NSString stringWithFormat:@"%@%@",SOBaseURL,URL];
     
     
     [manager GET:URL parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {

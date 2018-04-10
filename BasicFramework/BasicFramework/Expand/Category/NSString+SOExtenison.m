@@ -1,7 +1,7 @@
 
-#import "NSString+LBKJExtenison.h"
+#import "NSString+SOExtenison.h"
 
-@implementation NSString (LBKJExtenison)
+@implementation NSString (SOExtenison)
 
 
 - (CGSize)sizeWithFont:(UIFont *)font maxW:(CGFloat)maxW

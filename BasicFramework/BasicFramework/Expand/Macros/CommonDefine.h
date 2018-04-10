@@ -38,7 +38,6 @@
  */
 #define APPSINGLE [AppSingle Shared]
 #define kNotificationCenter [NSNotificationCenter defaultCenter]
-#define kNetWorkManager [NetWorkManager sharedInstance]
 #define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
 /**
  *  请求提示文字
@@ -56,9 +55,9 @@
  *  NSLog
  */
 #if DEBUG
-#define NSLog(FORMAT, ...) fprintf(stderr,"\nfunction:%s line:%d content:%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#define DLog(FORMAT, ...) fprintf(stderr,"\nfunction:%s line:%d content:%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
 #else
-#define NSLog(FORMAT, ...) nil
+#define DLog(FORMAT, ...) nil
 #endif
 
 //NSCoding协议遵循

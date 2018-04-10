@@ -1,7 +1,7 @@
 
-#import "UIBarButtonItem+DFYGExtension.h"
+#import "UIBarButtonItem+SOExtension.h"
 #import "UIView+Extension.h"
-@implementation UIBarButtonItem (DFYGExtension)
+@implementation UIBarButtonItem (SOExtension)
 
 
 + (UIBarButtonItem *)itemWithImageName:(NSString *)imageName highImageName:(NSString *)highImageName target:(id)target action:(SEL)action

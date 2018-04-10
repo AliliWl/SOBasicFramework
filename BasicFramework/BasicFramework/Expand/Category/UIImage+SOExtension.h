@@ -1,7 +1,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (SPIExtension)
+@interface UIImage (SOExtension)
 
 #pragma mark take image to this size
 -(UIImage*)scaleToSize:(CGSize)size;

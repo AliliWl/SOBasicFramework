@@ -5,7 +5,7 @@
 typedef void(^SDWebImageDownloaderProgressBlock)(NSInteger receivedSize, NSInteger expectedSize);
 typedef void(^SDWebImageCompletionBlock)(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL);
 
-@interface UIImageView (YGUIImageView)
+@interface UIImageView (SOImageView)
 
 /**
  *  YG图片加载
@@ -13,7 +13,7 @@ typedef void(^SDWebImageCompletionBlock)(UIImage *image, NSError *error, SDImage
  *  @param imgUrl           图片地址
  *  @param placeholderImage 备用图片
  */
-- (void)yg_setImage:(NSURL*)imgUrl placeholderImage:(UIImage*)placeholderImage;
+- (void)so_setImage:(NSURL*)imgUrl placeholderImage:(UIImage*)placeholderImage;
 /**
  *  有加载进度的图片加载
  *
@@ -22,10 +22,10 @@ typedef void(^SDWebImageCompletionBlock)(UIImage *image, NSError *error, SDImage
  *  @param progressBlock  加载进度block
  *  @param completedBlock 加载完成block
  */
-- (void)yg_setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder progress:(SDWebImageDownloaderProgressBlock)progressBlock completed:(SDWebImageCompletionBlock)completedBlock;
+- (void)so_setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder progress:(SDWebImageDownloaderProgressBlock)progressBlock completed:(SDWebImageCompletionBlock)completedBlock;
 /**
  *  取消下载
  */
-- (void)yg_cancelCurrentImageLoad;
+- (void)so_cancelCurrentImageLoad;
 
 @end

@@ -1,5 +1,5 @@
 
-#import "UIImage+SPIExtension.h"
+#import "UIImage+SOExtension.h"
 
 static UIImage *_img = nil;
 
@@ -10,7 +10,7 @@ static UIImage *_img = nil;
 
 
 
-@implementation UIImage (SPIExtension)
+@implementation UIImage (SOExtension)
 
 -(UIImage*)scaleToSize:(CGSize)size
 {

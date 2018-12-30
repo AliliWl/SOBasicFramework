@@ -102,6 +102,7 @@
 * 文件上传
 
   ```objective-c
+   /**
    *  文件上传
    *
    *  @param url              上传文件接口地址
@@ -115,12 +116,12 @@
    *
    *  @return 返回的对象中可取消请求
    */
-  - (SOURLSessionTask *)uploadFileWithUrl:(NSString *)url
+  	- (SOURLSessionTask *)uploadFileWithUrl:(NSString *)url
                                   fileData:(NSData *)data
                                       type:(NSString *)type
                                       name:(NSString *)name
                                   mimeType:(NSString *)mimeType
-                             progressBlock:(SOUploadProgressBlock)progressBlock
+                             progressBlock:		(SOUploadProgressBlock)progressBlock
                               successBlock:(SOResponseSuccessBlock)successBlock
                                  failBlock:(SOResponseFailBlock)failBlock;
   ```

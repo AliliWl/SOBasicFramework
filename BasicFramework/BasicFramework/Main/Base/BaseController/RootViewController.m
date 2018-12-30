@@ -9,7 +9,7 @@
 #import "RootViewController.h"
 #import "RAYNewFunctionGuideVC.h"
 #import "MYBlurIntroductionView.h"
-#import "SONetWorkClient.h"
+#import "SONetworking.h"
 @interface RootViewController ()<MYIntroductionDelegate>
 
 @end
@@ -19,9 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [SONetWorkClient getRequest:@"http://ipad-bjwb.bjd.com.cn/DigitalPublication/publish/Handler/APINewsList.ashx?date=20151031&startRecord=1&len=5&udid=1234567890&terminalType=Iphone&cid=213" parameters:nil needPrompt:YES success:^(id dataObject) {
+    [[SONetworking shaerdInstance] getWithUrl:@"http://ipad-bjwb.bjd.com.cn/DigitalPublication/publish/Handler/APINewsList.ashx?date=20151031&startRecord=1&len=5&udid=1234567890&terminalType=Iphone&cid=213" cache:NO params:nil progressBlock:^(int64_t bytesRead, int64_t totalBytes) {
         
-    } failure:^(id resultDict) {
+    } successBlock:^(id response) {
+        
+    } failBlock:^(NSError *error) {
         
     }];
     

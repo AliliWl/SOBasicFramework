@@ -30,7 +30,7 @@
 
 #import "DFYGProgressHUD.h"
 #import "AppSingle.h"
-#import "NetWorkManager.h"
+#import "SONetworking.h"
 ///888
 #import <Masonry/Masonry.h>
 

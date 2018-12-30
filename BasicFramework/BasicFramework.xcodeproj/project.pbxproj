@@ -42,7 +42,11 @@
 		3A210722E632CE931B050CFF /* libPods-BasicFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AA6AC588A0F83490E72E29 /* libPods-BasicFramework.a */; };
 		8122D8181D7FBE4F00497A61 /* RAYNewFunctionGuideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8122D8151D7FBE4F00497A61 /* RAYNewFunctionGuideVC.m */; };
 		8122D8191D7FBE4F00497A61 /* RAYNewFunctionGuideVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8122D8161D7FBE4F00497A61 /* RAYNewFunctionGuideVC.xib */; };
-		8E14493F207CAEF3002DDC36 /* SONetWorkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E14493E207CAEF3002DDC36 /* SONetWorkClient.m */; };
+		8E95522C21D8F263009DD0DB /* SOCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95522221D8F263009DD0DB /* SOCacheManager.m */; };
+		8E95522D21D8F263009DD0DB /* SOMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95522321D8F263009DD0DB /* SOMemoryCache.m */; };
+		8E95522E21D8F263009DD0DB /* SODiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95522421D8F263009DD0DB /* SODiskCache.m */; };
+		8E95522F21D8F263009DD0DB /* SOLRUManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95522921D8F263009DD0DB /* SOLRUManager.m */; };
+		8E95523021D8F263009DD0DB /* SONetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95522A21D8F263009DD0DB /* SONetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,8 +141,16 @@
 		8122D8141D7FBE4F00497A61 /* RAYNewFunctionGuideVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAYNewFunctionGuideVC.h; sourceTree = "<group>"; };
 		8122D8151D7FBE4F00497A61 /* RAYNewFunctionGuideVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAYNewFunctionGuideVC.m; sourceTree = "<group>"; };
 		8122D8161D7FBE4F00497A61 /* RAYNewFunctionGuideVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAYNewFunctionGuideVC.xib; sourceTree = "<group>"; };
-		8E14493D207CAEF3002DDC36 /* SONetWorkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SONetWorkClient.h; sourceTree = "<group>"; };
-		8E14493E207CAEF3002DDC36 /* SONetWorkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SONetWorkClient.m; sourceTree = "<group>"; };
+		8E95522221D8F263009DD0DB /* SOCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOCacheManager.m; sourceTree = "<group>"; };
+		8E95522321D8F263009DD0DB /* SOMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOMemoryCache.m; sourceTree = "<group>"; };
+		8E95522421D8F263009DD0DB /* SODiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODiskCache.m; sourceTree = "<group>"; };
+		8E95522521D8F263009DD0DB /* SOLRUManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOLRUManager.h; sourceTree = "<group>"; };
+		8E95522621D8F263009DD0DB /* SOCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOCacheManager.h; sourceTree = "<group>"; };
+		8E95522721D8F263009DD0DB /* SOMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOMemoryCache.h; sourceTree = "<group>"; };
+		8E95522821D8F263009DD0DB /* SODiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODiskCache.h; sourceTree = "<group>"; };
+		8E95522921D8F263009DD0DB /* SOLRUManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOLRUManager.m; sourceTree = "<group>"; };
+		8E95522A21D8F263009DD0DB /* SONetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SONetworking.m; sourceTree = "<group>"; };
+		8E95522B21D8F263009DD0DB /* SONetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SONetworking.h; sourceTree = "<group>"; };
 		A2404136FF63979E9EA81231 /* Pods-BasicFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework.release.xcconfig"; sourceTree = "<group>"; };
 		BDD62ADF7C767CC104287091 /* Pods-BasicFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -290,7 +302,6 @@
 				364DA5721D6584F400F6F424 /* Category(分类) */,
 				364DA58D1D6584F400F6F424 /* Const(常量) */,
 				364DA58F1D6584F400F6F424 /* Macros(宏) */,
-				364DA5931D6584F400F6F424 /* Network(网络) */,
 				364DA5961D6584F400F6F424 /* Tool(工具类) */,
 			);
 			name = "Expand(扩展)";
@@ -342,19 +353,10 @@
 			path = Macros;
 			sourceTree = "<group>";
 		};
-		364DA5931D6584F400F6F424 /* Network(网络) */ = {
-			isa = PBXGroup;
-			children = (
-				8E14493D207CAEF3002DDC36 /* SONetWorkClient.h */,
-				8E14493E207CAEF3002DDC36 /* SONetWorkClient.m */,
-			);
-			name = "Network(网络)";
-			path = Network;
-			sourceTree = "<group>";
-		};
 		364DA5961D6584F400F6F424 /* Tool(工具类) */ = {
 			isa = PBXGroup;
 			children = (
+				8E95522021D8F263009DD0DB /* SONetworking */,
 				364DA5971D6584F400F6F424 /* AppSingle.h */,
 				364DA5981D6584F400F6F424 /* AppSingle.m */,
 				364DA5991D6584F400F6F424 /* DFYGProgressHUD.h */,
@@ -480,6 +482,31 @@
 				8122D8161D7FBE4F00497A61 /* RAYNewFunctionGuideVC.xib */,
 			);
 			path = WBGuide;
+			sourceTree = "<group>";
+		};
+		8E95522021D8F263009DD0DB /* SONetworking */ = {
+			isa = PBXGroup;
+			children = (
+				8E95522121D8F263009DD0DB /* Cache */,
+				8E95522A21D8F263009DD0DB /* SONetworking.m */,
+				8E95522B21D8F263009DD0DB /* SONetworking.h */,
+			);
+			path = SONetworking;
+			sourceTree = "<group>";
+		};
+		8E95522121D8F263009DD0DB /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				8E95522221D8F263009DD0DB /* SOCacheManager.m */,
+				8E95522321D8F263009DD0DB /* SOMemoryCache.m */,
+				8E95522421D8F263009DD0DB /* SODiskCache.m */,
+				8E95522521D8F263009DD0DB /* SOLRUManager.h */,
+				8E95522621D8F263009DD0DB /* SOCacheManager.h */,
+				8E95522721D8F263009DD0DB /* SOMemoryCache.h */,
+				8E95522821D8F263009DD0DB /* SODiskCache.h */,
+				8E95522921D8F263009DD0DB /* SOLRUManager.m */,
+			);
+			path = Cache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -672,23 +699,27 @@
 				364DA6301D6584F400F6F424 /* BasicMainNC.m in Sources */,
 				364DA6321D6584F400F6F424 /* BasicMainWebNC.m in Sources */,
 				364DA6291D6584F400F6F424 /* UIView+Extension.m in Sources */,
+				8E95522C21D8F263009DD0DB /* SOCacheManager.m in Sources */,
 				8122D8181D7FBE4F00497A61 /* RAYNewFunctionGuideVC.m in Sources */,
 				364DA61D1D6584F400F6F424 /* NSObject+SOTool.m in Sources */,
 				364DA64D1D6584F400F6F424 /* LYLPageControl.m in Sources */,
 				364DA6521D6584F400F6F424 /* MJRefreshHeaderView.m in Sources */,
 				364DA6511D6584F400F6F424 /* MJRefreshFooterView.m in Sources */,
 				364DA61E1D6584F400F6F424 /* NSString+SOExtenison.m in Sources */,
-				8E14493F207CAEF3002DDC36 /* SONetWorkClient.m in Sources */,
+				8E95522E21D8F263009DD0DB /* SODiskCache.m in Sources */,
 				364DA6251D6584F400F6F424 /* UIImage+SOExtension.m in Sources */,
+				8E95522F21D8F263009DD0DB /* SOLRUManager.m in Sources */,
 				364DA6541D6584F400F6F424 /* UIScrollView+MJRefresh.m in Sources */,
 				364DA6281D6584F400F6F424 /* UIScrollView+UITouch.m in Sources */,
 				364DA6551D6584F400F6F424 /* UIView+MJExtension.m in Sources */,
 				364DA6331D6584F400F6F424 /* RootViewController.m in Sources */,
 				364DA6211D6584F400F6F424 /* UIBarButtonItem+SOExtension.m in Sources */,
+				8E95523021D8F263009DD0DB /* SONetworking.m in Sources */,
 				36111AE01D6EE63200A03BF4 /* main.m in Sources */,
 				364DA6241D6584F400F6F424 /* UIDevice-Hardware.m in Sources */,
 				364DA6261D6584F400F6F424 /* UIImageView+SOImageView.m in Sources */,
 				364DA64B1D6584F400F6F424 /* LYLIMGBrowse.m in Sources */,
+				8E95522D21D8F263009DD0DB /* SOMemoryCache.m in Sources */,
 				364DA62B1D6584F400F6F424 /* AppSingle.m in Sources */,
 				364DA6501D6584F400F6F424 /* MJRefreshConst.m in Sources */,
 				364DA64C1D6584F400F6F424 /* LYLIMGScrollView.m in Sources */,

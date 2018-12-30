@@ -1,6 +1,6 @@
 # 	SOBasicFramework
 
-####MYBlurIntroductionView
+#### MYBlurIntroductionView
 
 * 在要使用的类中导入头文件 `#import "MYBlurIntroductionView.h"`
 * 初始化 `MYIntroductionPanel`（panel1，panel2...）
@@ -47,7 +47,7 @@
 
   缓存分为内存缓存和磁盘缓存，缓存使用LRU缓存淘汰算法，支持过期检验
 
-  #####使用
+  ##### 使用
 
   ```objective-c
   #import "SONetworking.h"
